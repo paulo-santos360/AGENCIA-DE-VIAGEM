@@ -27,7 +27,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 9%;
+    padding: 2rem 4%;
 }
 
 header .logo{
@@ -36,3 +36,66 @@ header .logo{
     color: #eff8e2;
     text-transform: uppercase;
 }
+
+header .navbar a{
+    color: #eff8e2;
+    font-size: 1.4rem;
+    margin: 0 .2rem;
+    text-transform: uppercase;
+}
+
+
+header .navbar a:hover{
+    color: #02010a;
+}
+
+header .icons i{
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+header .icons i:hover{
+    color: #02010a;
+}
+
+header .search-bar-container{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #ff4000;
+    border-top: .1rem solid #eff8e2;
+    height: 86px;
+    display: flex;
+    align-items: center;
+    z-index: 1001;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);/* Vai esconder o menu de busca junto com Js*/
+}
+
+header .search-bar-container.active{
+    clip-path: polygon(0 0, 100% 0, 100%  100%, 0 100%);/* Vai fazer aparecer o menu de busca junto com Js*/
+}
+
+header .search-bar-container #search-bar{
+    width: 100%;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    color: #02010a;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+}
+
+header .search-bar-container label{
+    color: #02010a;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+    border-radius: .5rem;
+}
+
+header .search-bar-container label:hover{
+    color: #ff4000;
+}
+
