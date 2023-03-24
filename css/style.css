@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+/* 
+
+preto #02010a
+azul escuro #04052e
+vermelho #ff4000
+branco #eff8e2
+azul claro #3d52d5
+roxo esc #291528    
+*/
+
+header{
+    background-color: #ff4000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+}
+
+header .logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #eff8e2;
+    text-transform: uppercase;
+}
