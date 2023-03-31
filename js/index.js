@@ -1,6 +1,10 @@
 let searchBtn = document.querySelector('#search-btn');
 let searchBar = document.querySelector('.search-bar-container');
 // Selecionar o objeto
+//Formulario
+let formBtn = document.querySelector('#login-btn');
+let loginForm = document.querySelector('.login-form-container');
+let formClose = document.querySelector('#form-close');
 
 window.onscroll = () =>{
     searchBtn.classList.remove('fa-times');
@@ -14,3 +18,11 @@ searchBtn.addEventListener('click', () =>{
 })
 
 //Vai Ativar menu de Busca
+
+formBtn.addEventListener('click', () =>{
+    loginForm.classList.add('active');
+})
+
+formBtn.addEventListener('click', () =>{
+    loginForm.classList.add('active');
+})
