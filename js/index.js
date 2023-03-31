@@ -23,6 +23,6 @@ formBtn.addEventListener('click', () =>{
     loginForm.classList.add('active');
 })
 
-formBtn.addEventListener('click', () =>{
-    loginForm.classList.add('active');
+formClose.addEventListener('click', () =>{
+    loginForm.classList.remove('active');
 })

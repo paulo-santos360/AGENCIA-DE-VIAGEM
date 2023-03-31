@@ -17,6 +17,13 @@ azul claro #3d52d5
 roxo esc #291528    
 */
 
+html{
+/*     font-size: 62.5%;
+ */    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -129,6 +136,11 @@ header .search-bar-container label:hover{
     z-index: 10000;
     margin-top: 111px;
 }
+/*JS FORMULARIO*/
+.login-form-container.active{
+    transition: .5s;
+    top: 0;
+}
 
 .login-form-container form{
     margin: 2rem;
@@ -198,4 +210,46 @@ header .search-bar-container label:hover{
     color: #fff;
     cursor: pointer;
     z-index: 100000;
+}
+
+/*Menu Hamburguer*/
+#menu-bar{
+    color: #fff;
+    border: .1rem solid #fff;
+    border-radius: .5rem;
+    font-size: 3rem;
+    padding: .5rem 1.2rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* media queries*/
+@media(max-width: 976px){
+    html{
+        font-size: 86%
+    }
+}
+
+@media(max-width: 976px){
+    header{
+        padding: 4rem;
+    }
+}
+
+@media(max-width: 768px){
+    #menu-bar{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+        background-color: #333;
+        border-top: .1rem solid rgba(255, 255, 255, .2);
+        padding: 1rem 2rem;
+    }
+    header .navbar a{
+       display: block; 
+    }
 }
