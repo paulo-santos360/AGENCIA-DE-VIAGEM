@@ -223,6 +223,10 @@ header .search-bar-container label:hover{
     display: none;
 }
 
+.home{
+    display: flex;
+}
+
 /* media queries*/
 @media(max-width: 976px){
     html{
