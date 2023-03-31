@@ -248,8 +248,20 @@ header .search-bar-container label:hover{
         background-color: #333;
         border-top: .1rem solid rgba(255, 255, 255, .2);
         padding: 1rem 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        /*hamburguer sumi*/
     }
     header .navbar a{
        display: block; 
+       border-radius: .5rem;
+       padding: 1rem;
+       margin: 1.5rem 0;
+       background-color: #ff4000;
+    }
+}
+
+@media(max-width: 450px){
+    html{
+        font-size: 50%
     }
 }
