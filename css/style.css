@@ -237,6 +237,16 @@ header .search-bar-container label:hover{
     z-index: 0;
 }
 
+.home content{
+    text-align: center;
+}
+
+.home content h3{
+    font-size: 4.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 .3rem 5.rem rgba(0, 0, 0, .1);
+}
 /* media queries*/
 @media(max-width: 976px){
     html{
