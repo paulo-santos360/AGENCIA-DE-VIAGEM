@@ -254,6 +254,16 @@ header .search-bar-container label:hover{
     padding: .5rem 0;
 }
 
+.home .video-container video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 100px;
+}
+
 /* media queries*/
 @media(max-width: 976px){
     html{
