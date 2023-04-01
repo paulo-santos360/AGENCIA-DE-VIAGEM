@@ -8,6 +8,8 @@ let formClose = document.querySelector('#form-close');
 //Menu-Hamburguer
 let menu = document.querySelector('#menu-bar');
 let navbar = document.querySelector('.navbar');
+//Video BTN
+let videoBtn = document.querySelectorAll('.vid-btn');
 
 
 
@@ -41,3 +43,13 @@ formBtn.addEventListener('click', () =>{
 formClose.addEventListener('click', () =>{
     loginForm.classList.remove('active');
 })
+
+//VIDEO Btn
+videoBtn.forEach(btn =>{
+    btn.addEventListener('click', ()=>{
+        document.querySelector('.controls .active').classList.remove('active');
+        btn.classList.add('active');
+        let src = btn.getAttribute('data-src');
+        document.querySelector('#video-slider').src = src;
+});
+});
