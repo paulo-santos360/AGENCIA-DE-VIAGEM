@@ -264,6 +264,19 @@ header .search-bar-container label:hover{
     margin-left: 100px;
 }
 
+.home .controls{
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: rgba(0, 0, 0, .7);
+    position: relative;
+    top: 10rem;
+}
+
+.home .controls .vid-btn{
+    height: 2rem;
+    width: 2rem;
+}
+
 /* media queries*/
 @media(max-width: 976px){
     html{
