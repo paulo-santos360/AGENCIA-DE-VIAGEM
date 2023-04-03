@@ -308,11 +308,11 @@ header .search-bar-container label:hover{
 
 .row{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-wrap: nowrap;
+    justify-content: center;
+  /*   gap: 1.5rem; */
 }
-
+/*flex 1 1 40rem*/
 .book .row .image{
     flex: 1 1 -13rem;
 }
