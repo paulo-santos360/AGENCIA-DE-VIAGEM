@@ -357,7 +357,7 @@ header .search-bar-container label:hover{
 }
 
 .packages .box-container .box{
-    flex: 1 1 15rem;
+    flex: 1 1 20rem;
     border-radius: .5rem;
     overflow: hidden;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
@@ -384,10 +384,22 @@ header .search-bar-container label:hover{
 }
 
 .packages .box-container .box .content p{
+    font-size: 1.7rem;
     color: #ff4000;
+    padding: 1rem 0;
 }
 
+.packages .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: #ff4000;
+    padding: 1rem 0;
+}
 
+.packages .box-container .box .content .price{
+    font-size: 2rem;
+    color: #333;
+    padding-top: 1rem;
+}
 
 
 
