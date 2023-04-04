@@ -414,6 +414,24 @@ header .search-bar-container label:hover{
     gap: 1.5rem;
 }
 
+.services .box-container .box{
+  flex: 1 1 30rem;
+  border-radius: .5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.services .box-container .box i{
+    padding: 1rem;
+    font-size: 5rem;
+    color: #ff4000;
+}
+
+.services .box-container .box h3{
+    padding: 1.5rem;
+    font-size: 5rem;
+    color: black;
+}
 
 
 /* media queries*/
