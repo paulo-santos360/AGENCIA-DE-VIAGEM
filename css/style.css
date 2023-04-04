@@ -310,7 +310,7 @@ header .search-bar-container label:hover{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-  /*   gap: 1.5rem; */
+    gap: 1.5rem; 
 }
 /*flex 1 1 40rem*/
 .book .row .image{
@@ -323,6 +323,9 @@ header .search-bar-container label:hover{
 
 .book .row form{
     flex: 1 1 40rem;
+    padding: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
 }
 
 
