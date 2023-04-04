@@ -348,9 +348,44 @@ header .search-bar-container label:hover{
     color: #666;
 }
 
+/*Gallery */
+.packages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border: 1px solid red;
+}
+
+.packages .box-container .box{
+    flex: 1 1 15rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+}
+
+.packages .box-container .box img{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.packages .box-container .box .content{
+    padding: 2rem;
+}
 
 
+.packages .box-container .box .content h3{
+    font-size: 2rem;
+    color: #333;
+}
 
+.packages .box-container .box .content h3 i{
+    color: #ff4000;
+}
+
+.packages .box-container .box .content p{
+    color: #ff4000;
+}
 
 
 
