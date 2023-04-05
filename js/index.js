@@ -83,7 +83,7 @@ var swiper = new Swiper(".brand-slider", {
     },
     breakpoints:{
         450:{
-            slidesrPerView: 2,
+            slidesPerView: 2,
         },
         768:{
             slidesPerView: 3,
