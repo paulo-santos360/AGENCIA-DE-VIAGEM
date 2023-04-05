@@ -495,6 +495,13 @@ header .search-bar-container label:hover {
     color: #eee;
 }
 
+/*Slider*/
+.review .box{
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    border-radius: .5rem;
+}
 
 /* media queries*/
 @media (max-width: 976px) {
