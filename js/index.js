@@ -53,3 +53,24 @@ videoBtn.forEach(btn =>{
         document.querySelector('#video-slider').src = src;
 });
 });
+
+var swiper = new Swiper(".review-slider", {
+    spaceBetween: 20,
+    loop: true,
+    autoplay:{
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints:{
+        640:{
+            sliderPerView: 1,
+        },
+        768:{
+            sliderPerView: 2,
+        },
+        1024:{
+            sliderPerView: 3,
+        },
+    },
+});
+
