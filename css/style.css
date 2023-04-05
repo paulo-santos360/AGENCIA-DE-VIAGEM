@@ -533,6 +533,10 @@ header .search-bar-container label:hover {
    
 }
 
+.brand-container{
+    text-align: center;
+}
+
 
 
 /* media queries*/
