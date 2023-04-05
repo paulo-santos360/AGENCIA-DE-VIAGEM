@@ -576,7 +576,7 @@ header .search-bar-container label:hover {
 
  .footer .box-container .box h3{
     font-size: 2.5rem;
-    padding: 7rem 0;
+  /*   padding: 7rem 0; */
     color: #eee;
  }
 
